@@ -185,7 +185,7 @@ tk.Button(
      font=('Courier',14),
      bg='black',
      fg='white',
-     command=run_alexa,
+     command=run_Grappes,
      activebackground='#00a8e8',
      borderwidth=15,
      relief='groove',
