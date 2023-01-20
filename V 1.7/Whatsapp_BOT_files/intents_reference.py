@@ -26,11 +26,11 @@ def start_intents():
                         "q xopa"
                     ],
                     "responses": [
-                        "Hola soy Grappes BOT. \u00bfEn que puedo ayudarte?\nTe recomiendoque me preguntes que puedo hacer",
-                        "Hola, muy buenas, soy Grappes BOT. \u00bfEn qu\u00e9 puedo ayudarte?\nTe recomiendoque me preguntes que puedo hacer",
-                        "Muy buenas, soy Grappes BOT. \u00a1Cuentame!\nTe recomiendoque me preguntes que puedo hacer",
-                        "Estas hablando con Grappes-BOT, \u00bfEn qu\u00e9 puedo ayudarte?\nTe recomiendoque me preguntes que puedo hacer",
-                        "Saludos humano, soy Grappes BOT. \u00bfEn qu\u00e9 puedo servirte?\nTe recomiendoque me preguntes que puedo hacer"
+                        "Hola soy Grappes BOT. \u00bfEn que puedo ayudarte?\nTe recomiendo que me preguntes que puedo hacer",
+                        "Hola, muy buenas, soy Grappes BOT. \u00bfEn qu\u00e9 puedo ayudarte?\nTe recomiendo que me preguntes que puedo hacer",
+                        "Muy buenas, soy Grappes BOT. \u00a1Cuentame!\nTe recomiendo que me preguntes que puedo hacer",
+                        "Estas hablando con Grappes-BOT, \u00bfEn qu\u00e9 puedo ayudarte?\nTe recomiendo que me preguntes que puedo hacer",
+                        "Saludos humano, soy Grappes BOT. \u00bfEn qu\u00e9 puedo servirte?\nTe recomiendo que me preguntes que puedo hacer"
                     ],
                     "context": [
                         "saludos"
@@ -46,7 +46,7 @@ def start_intents():
                         "Jose Dasilva",
                         "Sara Portillo",
                         "Yaili Arauz",
-                        "Jefereson Chacon",
+                        "Jeferson Chacon",
                         "sic",
                         "Jose Burgos",
                         "Luis Gutierrez"
@@ -57,10 +57,10 @@ def start_intents():
                         "Si conoces esas palabras mágicas, tal vez conozcas a uno de mis programadores, Jose Dasilva",
                         "Si conoces esas palabras mágicas, tal vez conozcas a uno de mis padres, Sara Portillo",
                         "Si conoces esas palabras mágicas, tal vez conozcas a uno de mis esctruturadores, Yaili Arauz",
-                        "Si conoces esas palabras mágicas, tal vez conozcas a uno de mis diseñadores, Jefereson Chacon",
+                        "Si conoces esas palabras mágicas, tal vez conozcas a uno de mis diseñadores, Jeferson Chacon",
                         "¡Como curiosidad estoy programado enteramente en Python!",
                         "Soy un BOT creado para un curso de programación de Python e inteligencia artificial de Samsung, llamado SIC",
-                        "Saludos humano, soy Grappes BOT. \u00bfEn qu\u00e9 puedo servirte?\nTe recomiendoque me preguntes que puedo hacer",
+                        "Saludos humano, soy Grappes BOT. \u00bfEn qu\u00e9 puedo servirte?\nTe recomiendo que me preguntes que puedo hacer",
                         "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                     ],
                     "context": [
@@ -354,7 +354,7 @@ def start_intents():
                         ""
                     ],
                     "responses": [
-                        "No te he logrando entender, intentalo de nuevo.",
+                        "No te he logrado entender, intentalo de nuevo.",
                         "\u00bfC\u00f3mo has dicho, disculpa?",
                         "Lo siento, no entiendo lo que me pides...",
                         "Repiteme, por favor",
