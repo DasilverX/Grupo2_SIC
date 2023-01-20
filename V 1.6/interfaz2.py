@@ -23,7 +23,7 @@ app.geometry('800x500')
 app.resizable(width=False,height=False)
 bg = PhotoImage(file=r'C:\Users\josea\Desktop\proyecto SIC\Grupo2_SIC\V 1.6\SIC-Foto-de-Grupo-1024x680.png')
 #app.configure(background=bg)
-tk.Wm.wm_title(app, 'J.A.R.V.I.S')
+tk.Wm.wm_title(app, 'Grappes Asisstant')
 
 
 #manejo de imagen
@@ -70,8 +70,6 @@ def abrir_camara():
             break
     capturarVideo.release()
     cv.destroyAllWindows()
-
-abrir_camara()
 
 
 #abrir bot
