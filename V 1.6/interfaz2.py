@@ -1,4 +1,5 @@
 #librerias
+import subprocess
 from time import sleep
 from tkinter import *
 import tkinter as tk
@@ -21,7 +22,7 @@ asis.setProperty('voice', voices[0].id)
 app = tk.Tk()
 app.geometry('800x500')
 app.resizable(width=False,height=False)
-bg = PhotoImage(file=r'C:\Users\josea\Desktop\proyecto SIC\Grupo2_SIC\V 1.6\SIC-Foto-de-Grupo-1024x680.png')
+bg = PhotoImage(file=r'C:\Users\josea\Desktop\proyecto SIC\Grupo2_SIC\V 1.6\fondo.png')
 #app.configure(background=bg)
 tk.Wm.wm_title(app, 'Grappes Asisstant')
 
@@ -74,8 +75,10 @@ def abrir_camara():
 
 #abrir bot
 def abrir_chatbot():
-    print('si funciona')
-    os.system('cmd /c ')
+    try:
+        subprocess.call([r"C:\Users\josea\Desktop\proyecto SIC\Grupo2_SIC\V 1.6\Grappes_BOT.bat"])
+    except:
+        print('Algo salio mal...')
 
 
 
