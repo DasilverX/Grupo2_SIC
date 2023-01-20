@@ -100,14 +100,14 @@ def take_command():
             sleep(0.5)
             command = listener.recognize_google(voice,language="es")
             command = command.lower().strip()
-            if 'alexa' in command:
-                command = command.replace('alexa', '')
+            if 'asistente' in command:
+                command = command.replace('asistente', '')
                 
             return command
     except:
         return ''
         
-def run_alexa():
+def run_Grappes():
     command = take_command()
     
     if command == "":
@@ -118,14 +118,14 @@ def run_alexa():
         talk(command)
         print(command)         
         if ('ayuda' in command) or ('qué puedes hacer' in command):
-            talk('Puedo darte la hora actual, prueba con, dime la hora')
-            print('Puedo darte la hora actual, prueba con, dime la hora')
+            talk('Puedo darte la hora actual, prueba con, hora o tiempo actual')
+            print('Puedo darte la hora actual, prueba con, hora o tiempo actual')
             talk('Puedo darte el clima actual de tu zona, prueba con, dame el clima')
             print('Puedo darte el clima actual de tu zona, prueba con, dame el clima')
             talk('Puedo investigar en la wikipedia, prueba con, dime python o investiga samsung')
             print('Puedo investigar en la wikipedia, prueba con, dime python o investiga samsung')
-            talk('Puedo buscarte un video en youtube, prueba con, reproduce musica a alegre')
-            print('Puedo buscarte un video en youtube, prueba con, reproduce musica a alegre')
+            talk('Puedo buscarte un video en youtube, prueba con, reproduce musica alegre')
+            print('Puedo buscarte un video en youtube, prueba con, reproduce musica alegre')
             talk('Puedo abrir la camara de tu dispositivo, prueba con, abre la camara')
             print('Puedo abrir la camara de tu dispositivo, prueba con, abre la camara')
             talk('si no entiendo lo que me pides, lo buscaré en google directamente')
@@ -215,7 +215,7 @@ tk.Button(
      font=('Courier',14),
      bg='black',
      fg='white',
-     command=run_alexa,
+     command=run_Grappes,
      activebackground='#00a8e8',
      borderwidth=15,
      relief='groove',
