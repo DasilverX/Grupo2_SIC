@@ -39,7 +39,6 @@ app.iconbitmap(os.path.join(folder_img,"icono.ico"))
 #clima
 
 
-
 def find_my_ip():
     ip_address = requests.get('https://api64.ipify.org?format=json').json()
     return ip_address["ip"]
@@ -126,7 +125,9 @@ def run_Grappes():
         print(f"Usted se encuentra en: {city}")
         clima, temperatura, feels_like = get_weather_report(city)
         print(f"La temperatura actual es {temperatura}, pero se siente más como {feels_like}")
-        print(f"EL clima está {clima}") 
+        print(f"EL clima está {clima}")
+        talk(f"La temperatura actual es {temperatura}, pero se siente más como {feels_like}")
+        talk(f"EL clima está {clima}")
     
     elif 'camara' in command:
         abrir_camara()
