@@ -96,13 +96,13 @@ def take_command():
             command = listener.recognize_google(voice,language="es")
             sleep(3)
             command = command.lower()
-            if 'alexa' in command:
-                command = command.replace('alexa', '')
+            if 'asistente' in command:
+                command = command.replace('asistente', '')
     except:   
         pass
     return command
 
-def run_alexa():
+def run_Grappes():
     command = take_command()
     print(command)         
            
@@ -128,7 +128,7 @@ def run_alexa():
         print(f"La temperatura actual es {temperatura}, pero se siente más como {feels_like}")
         print(f"EL clima está {clima}") 
     
-    elif 'canara' in command:
+    elif 'camara' in command:
         abrir_camara()
 
     else:
